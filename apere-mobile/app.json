@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Apere",
+    "slug": "apere-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/apere.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/apere.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dnauxdev.apere"
+    },
+    "android": {
+      "package": "com.dnauxdev.apere"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "254535b0-0b35-419b-94f1-61ad16d0c2cd"
+      }
+    }
+  }
+}
